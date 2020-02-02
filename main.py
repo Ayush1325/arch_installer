@@ -1,4 +1,6 @@
-import partitions
+import src.partitions as par
 
 if __name__ == '__main__':
-    partitions.format_all()
+    par.format_all()
+    par.swap_space()
+    par.mount_all()
