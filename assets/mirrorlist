@@ -1,0 +1,20 @@
+## India
+Server = http://mirror.cse.iitk.ac.in/archlinux/$repo/os/$arch
+Server = https://ind.mirror.pkgbuild.com/$repo/os/$arch
+
+## Bangladesh
+Server = http://mirror.xeonbd.com/archlinux/$repo/os/$arch
+
+## China
+Server = http://mirrors.163.com/archlinux/$repo/os/$arch
+Server = http://mirrors.cqu.edu.cn/archlinux/$repo/os/$arch
+
+## Japan
+Server = http://mirrors.cat.net/archlinux/$repo/os/$arch
+Server = https://mirrors.cat.net/archlinux/$repo/os/$arch
+Server = http://ftp.tsukuba.wide.ad.jp/Linux/archlinux/$repo/os/$arch
+
+## Worldwide
+Server = http://mirrors.evowise.com/archlinux/$repo/os/$arch
+Server = http://mirror.rackspace.com/archlinux/$repo/os/$arch
+Server = https://mirror.rackspace.com/archlinux/$repo/os/$arch

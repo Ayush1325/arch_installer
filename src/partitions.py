@@ -12,3 +12,6 @@ def mount_all():
     subprocess.run(['mount', '/dev/MainLinux/lvolroot', '/mnt'])
     subprocess.run(['mkdir', '/mnt/home'])
     subprocess.run(['mount', '/dev/MainLinux/lvolhome', '/mnt/home'])
+
+def chroot():
+    subprocess.run(['arch-chroot', '/mnt'])

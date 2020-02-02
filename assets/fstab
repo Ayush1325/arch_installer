@@ -1,0 +1,18 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/mapper/MainLinux-lvolroot
+UUID=cada5ea6-03fd-4522-b71a-a56a1607e08d	/         	ext4      	rw,relatime	0 1
+
+# /dev/mapper/MainLinux-lvolhome
+UUID=3f12fe3c-1f83-4342-a5aa-07e4bd06738f	/home     	ext4      	rw,relatime	0 2
+
+# /dev/mapper/MainLinux-lvolswap
+UUID=95bce4c8-b316-40ab-b61e-b91184930e41	none      	swap      	defaults  	0 0
+
+# Media
+UUID=DEC42F72C42F4BD9				/mnt/media	ntfs-3g		noauto,x-systemd.automount,uid=1000,gid=1000,umask=0022	0 0
+
+# Work
+UUID=0A0EA15E0EA14413				/mnt/work	ntfs-3g		noauto,x-systemd.automount,uid=1000,gid=1000,umask=0022	0 0
