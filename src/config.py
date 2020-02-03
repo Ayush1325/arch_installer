@@ -12,4 +12,4 @@ def grub():
     subprocess.run(['grub-mkconfig', '-o', '/boot/grub/grub.cfg'])
 
 def user():
-    subprocess.run(['useradd', '-m', '-G', 'storage', 'audio', 'wheel', 'optical', 'disk', 'video', 'ayush'])
+    subprocess.run(['useradd', '-m', '-G', 'storage,audio,wheel,optical,disk,video', 'ayush'])

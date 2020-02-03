@@ -8,12 +8,12 @@ def copy_fstab():
     copyfile('assets/fstab', '/mnt/etc/fstab')
 
 def copy_project():
-    copytree('~/arch-installer', '/mnt/arch-installer')
+    copytree('~/arch_installer/', '/mnt/arch_installer/')
 
 def localization():
     copyfile('assets/locale.gen', '/etc/locale.gen')
     copyfile('assets/locale.conf', '/etc/locale.conf')
-    subprocess.run(['source', '/etc/locale.conf'])
+    subprocess.run(['source', '/etc/locale.conf'], shell=True)   
     subprocess.run(['locale-gen'])
 
 def network():
